@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+      }
+      .heading {
+        margin-bottom: 10px;
+        font-family: arial;
+        font-size: 30px;
+        font-weight: lighter;
+      }
+      input {
+        padding: 5px 20px;
+        border: none;
+        background-color: rgb(232, 232, 232);
+        color: black;
+        margin-bottom: 3px;
+        width: 300px;
+      }
+      button {
+        margin-top: 20px;
+        padding: 10px 10px;
+        border-radius: 0;
+        border: 0;
+      }
+      .request-button {
+        background-color: black;
+        color: white;
+        margin-right: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Request a ride now</h1>
+      <input type="text" class="pickup" placeholder="Enter pickup location" />
+      <input type="text" class="destination" placeholder="Enter destination" />
+      <div class="buttons-contatiner">
+        <button class="request-button">Request now</button>
+        <button class="schedule-button">Schedule for later</button>
+      </div>
+    </div>
+  </body>
+</html>

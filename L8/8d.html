@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .name {
+        display: flex;
+        flex-direction: row;
+      }
+      .first-name,
+      .second-name {
+        width: 100px;
+        margin-right: 3px;
+        margin-bottom: 6px;
+        padding: 7px 10px;
+        border-radius: 5px;
+        border: 1px solid gray;
+      }
+      .email {
+        width: 225px;
+        margin-bottom: 6px;
+        padding: 7px 10px;
+        border-radius: 5px;
+        border: 1px solid gray;
+      }
+      .button {
+        width: 250px;
+        padding: 10px 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: blue;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="name">
+        <input type="text" class="first-name" placeholder="First Name" />
+        <input type="text" class="second-name" placeholder="Second Name" />
+      </div>
+      <input type="text" class="email" placeholder="Email" />
+      <button class="button">Sign Up</button>
+    </div>
+  </body>
+</html>

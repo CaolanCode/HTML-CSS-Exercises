@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        font-family: Arial;
+        margin: 0;
+      }
+      .container {
+        display: flex;
+        flex-direction: row;
+        margin: 10px 10px;
+      }
+      .image-container {
+        margin: 10px;
+      }
+      .image-container img {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+      }
+      .heading {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5px;
+      }
+      .author-url {
+        font-weight: bold;
+      }
+      .handle {
+        color: gray;
+      }
+      .tweet-subject {
+        width: 400px;
+        margin-bottom: 10px;
+      }
+      .link {
+        border: 1px solid gray;
+        width: 350px;
+        display: flex;
+        flex-direction: row;
+        border-radius: 10px;
+      }
+      .thumb-nail {
+        width: 150px;
+        height: 100px;
+        background-color: gray;
+        border-radius: 7px 0 0 7px;
+      }
+      .link-description {
+        margin: 20px 20px;
+      }
+      .link-url {
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-container">
+        <img src="cat.jpg" alt="image of cat" />
+      </div>
+      <div class="tweet">
+        <div class="heading">
+          <div class="author-url">supersimple.dev</div>
+          <div class="handle">&#64;SuperSimpleDev</div>
+        </div>
+        <div class="tweet-subject">
+          What is backend web development&#63; A complete overview. New video is
+          up&#33;
+        </div>
+        <div class="link">
+          <div class="thumb-nail"></div>
+          <div class="link-description">
+            <div class="link-url">youtube.com</div>
+            <div class="link-subject">
+              Backend web development - a complete overview (2021)
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

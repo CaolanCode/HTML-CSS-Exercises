@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        font-family: arial;
+      }
+      .container {
+        margin: 10px 10px;
+        padding: 10px 10px;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+        width: 320px;
+      }
+      .header {
+        font-size: 10px;
+        font-weight: gray;
+        margin-left: 5px;
+      }
+      .main {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 10px;
+      }
+      .image-container {
+        margin-right: 10px;
+      }
+      .image-container img {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+      }
+      .heading-time-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .heading {
+        font-weight: bold;
+        font-size: 16px;
+      }
+      .time {
+        font-weight: lighter;
+        font-size: 12px;
+        color: gray;
+        margin-bottom: 7px;
+      }
+      .subject {
+        font-weight: bold;
+        font-size: 14px;
+        margin-bottom: 3px;
+      }
+      .message {
+        font-weight: lighter;
+        color: gray;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">ALL INBOXES</div>
+      <div class="main">
+        <div class="image-container">
+          <img src="cat.jpg" alt="image of cat" />
+        </div>
+        <div class="description">
+          <div class="heading-time-container">
+            <div class="heading">Chewy Promotions</div>
+            <div class="time">4&#58;58 PM</div>
+          </div>
+          <div class="subject">Biggest sales of the year!</div>
+          <div class="message">
+            Hey there! We&#39;re writing to tell you about our...
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="image-container">
+          <img src="cat2.jpg" alt="image of cat" />
+        </div>
+        <div class="description">
+          <div class="heading-time-container">
+            <div class="heading">Best Buy</div>
+            <div class="time">12&#58;32 PM</div>
+          </div>
+          <div class="subject">Your Best Buy eReceipt</div>
+          <div class="message">
+            Thank you for shopping at Best Buy, here is...
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="image-container">
+          <img src="cat3.jpg" alt="image of cat" />
+        </div>
+        <div class="description">
+          <div class="heading-time-container">
+            <div class="heading">Netflix</div>
+            <div class="time">9&#58;00 AM</div>
+          </div>
+          <div class="subject">Here&#39;s what&#39;s coming soon to Netflix</div>
+          <div class="message">
+            Brand new movies and shows&#44; old favourites...
+          </div>
+        </div>
+      </div>
+  </body>
+</html>

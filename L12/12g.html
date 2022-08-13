@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        font-family: arial;
+      }
+      .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: purple;
+        color: white;
+        margin: 10px 10px;
+        padding: 10px 10px;
+        width: 750px;
+      }
+      .home {
+        margin-right: 50px;
+        font-weight: bold;
+      }
+      .search-bar {
+        height: 30px;
+        width: 500px;
+        border: 1px solid black;
+        border-radius: 15px;
+        background-color: white;
+        margin-right: 100px;
+      }
+      .search-bar input {
+        border: none;
+        margin: 5px 10px;
+      }
+      .download {
+        border: 1px solid white;
+        color: white;
+        background-color: purple;
+        padding: 10px 10px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p class="home">Home</p>
+      <div class="search-bar">
+        <input type="text" class="search" placeholder="Search" />
+      </div>
+      <button class="download">download</button>
+    </div>
+  </body>
+</html>

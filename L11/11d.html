@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 170px 170px 170px;
+      }
+      .container {
+        width: 150px;
+        height: 245px;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+        font-family: arial;
+        margin-top: 10px;
+        margin-left: 10px;
+      }
+      img {
+        width: 150px;
+        height: 150px;
+      }
+      .name {
+        margin-top: 5px;
+        margin-left: 5px;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .mutual-friends {
+        margin-top: 2px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        display: grid;
+        grid-template-columns: 40px 1fr;
+        align-items: center;
+      }
+      .mutual-friends img {
+        height: 26px;
+        width: 26px;
+        margin-right: 5px;
+        border-radius: 15px;
+      }
+      .friends {
+        color: gray;
+        font-size: 12px;
+        display: grid;
+      }
+      .button {
+        margin-left: 5px;
+        background-color: rgb(0, 128, 255);
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 12px;
+        padding: 5px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="container">
+        <img src="cat.jpg" alt="picture of cat" />
+        <p class="name">Oliver</p>
+        <div class="mutual-friends">
+          <img src="cat4.jpg" alt="small cat image" />
+          <p class="friends">2 mutual friends</p>
+        </div>
+        <button class="button">Add Friend</button>
+      </div>
+      <div class="container">
+        <img src="cat2.jpg" alt="picture of cat" />
+        <p class="name">Oliver</p>
+        <div class="mutual-friends">
+          <img src="cat4.jpg" alt="small cat image" />
+          <p class="friends">2 mutual friends</p>
+        </div>
+        <button class="button">Add Friend</button>
+      </div>
+      <div class="container">
+        <img src="cat3.jpg" alt="picture of cat" />
+        <p class="name">Oliver</p>
+        <div class="mutual-friends">
+          <img src="cat4.jpg" alt="small cat image" />
+          <p class="friends">2 mutual friends</p>
+        </div>
+        <button class="button">Add Friend</button>
+      </div>
+    </div>
+  </body>
+</html>
